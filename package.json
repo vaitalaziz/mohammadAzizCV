@@ -1,0 +1,17 @@
+{
+  "name": "mohammadazizcv",
+  "version": "1.0.0",
+  "description": "Aziz Online Version CV",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammad Abdul Aziz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "express-handlebars": "*",
+    "moment": "*",
+    "multer": "*"
+  }
+}
