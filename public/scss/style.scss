@@ -92,17 +92,30 @@ header h1 {
 
 }
 
-.contact-list li span {
-    display: block;
-    margin: 0;
-    padding: 0;
-    line-height: 0.5em;
-    margin-left: 60px; 
-    font-size: 15px;
-    color: #ccc;
-    // text-align: 
+// .contact-list li span {
+//   //  display: block;
+//     margin: 0;
+//     padding: 0;
+//    // line-height: 0.5em;
+//     margin-left: 15px;//60px; 
+//     font-size: 15px;
+//     color: #ccc;
+//     // text-align: 
+// }
+
+a:link, a:visited {
+    text-decoration: none; 
+    color: black; 
 }
 
+.tooltiptext {
+    visibility: hidden; 
+}
+
+a:hover .tooltiptext {
+    visibility: visible; 
+    background-color: pink; 
+} 
 
 .media {
     background: $background-color;
